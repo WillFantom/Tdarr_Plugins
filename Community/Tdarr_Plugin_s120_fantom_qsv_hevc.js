@@ -4,7 +4,9 @@ function details() {
     Stage: "Pre-processing",
     Name: "WillFantom H265 QSV Configurable",
     Type: "Video",
-    Description: "[Contains built-in filter] This plugin transcodes all videos not h265 encoded to h265 using Intel QuickSync Video",
+    Description: `[Contains built-in filter] This plugin transcodes all videos not h265 encoded to h265 using Intel QuickSync Video. 
+    All audio, metadata, subs and chapters are left untouched. This uses psy options that can result in a good image with a minimal file size. 
+    Try on a single video to see if the image quality is up to any standards you set.`,
     Version: "0.10",
     Link: "https://github.com/HaveAGitGat/Tdarr_Plugins/blob/master/Community/Tdarr_Plugin_s120_fantom_qsv_hevc.js",
     Tags: "pre-processing,ffmpeg,h265,qsv",
